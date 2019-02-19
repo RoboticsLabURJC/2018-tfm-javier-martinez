@@ -1,5 +1,5 @@
 # 2018-tfm-javier-martinez
----
+
 # SDSLAM
 I'm using an application named SDSLAM, but I have the code in [another repository](https://github.com/javimdr/slam-SD-SLAM) and I still have to move the project to this repository.
 
@@ -11,7 +11,6 @@ In addition to this, from the YAML file, the parent and child frames can be edit
 
 The result can be observed in the following [video](https://youtu.be/AcKQcqukvYM).
 
----
 ## Intel D435 Post-Processing
 The D435 camera includes a series of post-processed filters (decimation, disparity, spatial and temporal) in order to improve the depth image.
 
