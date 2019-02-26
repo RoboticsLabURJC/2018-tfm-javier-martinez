@@ -11,12 +11,12 @@ In addition to this, from the YAML file, the parent and child frames can be edit
 
 The result can be observed in the following [video](https://youtu.be/AcKQcqukvYM).
 
-## Intel D435 Post-Processing
+### Intel D435 Post-Processing
 The D435 camera includes a series of post-processed filters (decimation, disparity, spatial and temporal) in order to improve the depth image.
 
 For this reason, I'm attempting to quantify how much the depth image improves each one of its filters by combining them.
 
-## Improvement of the accuracy using IMU
+### Improvement of the accuracy using IMU
 I'm analysing the SDSLAM code with the aim of improving the accuracy of the algorithm with information from the IMU.
 The results obtained when the information from the IMU is not used (e.g., [Monocular](https://youtu.be/bv6guB_azIQ)) are practically identical to the results obtained when the information from the IMU is used ([Monocular + IMU](https://youtu.be/dh0sQVHZ48o)).
 
